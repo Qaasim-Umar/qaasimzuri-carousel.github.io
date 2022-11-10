@@ -2,8 +2,9 @@
   box-sizing: border-box;
 }
 
-body {
+main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -16,7 +17,9 @@ body {
 .carosel-items--active {
   display: block;
 }
-
+h1{
+  margin-top: 2rem;
+}
 .carosel-container {
   width: 680px;
   height: 390px;
@@ -36,7 +39,7 @@ button {
   padding: 0 1rem;
   border-radius: 50%;
   color: rgb(255, 255, 255);
-  transform: translateY(-50%);
+
 }
 .carosel-container button {
   opacity: 0;
